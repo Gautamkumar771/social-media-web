@@ -3,7 +3,8 @@ const mongoose = require('mongoose');
 mongoose.set('strictQuery', true);
 
 //connect to the database
-mongoose.connect('mongodb://127.0.0.1:27017/gautam');
+// mongoose.connect('mongodb://127.0.0.1:27017/gautam');
+mongoose.connect('mongodb+srv://gautamkumar844506:<Gautam@12345>@cluster0.kanxjpq.mongodb.net/social-media');
 
 // aqure the connection to check it is sucessful
 const db = mongoose.connection;
